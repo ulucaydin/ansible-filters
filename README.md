@@ -7,3 +7,6 @@ For example: `"{{ google.com|dns_to_ip }}"`
 
 
 For further assistance, please see the [official Ansible documentation](http://docs.ansible.com/ansible/developing_plugins.html#distributing-plugins).
+
+## Contents 
+- **dns_to_ip**: A filter to look up and find IP addresses in the DNS. Usage: `"{{ google.com|dns_to_ip }}"`
